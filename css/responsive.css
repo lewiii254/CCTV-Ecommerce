@@ -1,0 +1,232 @@
+/*--------------------------------------------------------------------- 
+File Name: responsive.css 
+---------------------------------------------------------------------*/
+
+@media (min-width: 1343px) and (max-width: 1500px) {
+
+    .banner_main .bluid h1 {
+        font-size: 76px;
+        line-height: 86px;
+    }
+    #myCarousel a.carousel-control-prev {
+    left: 43.4%;
+    }
+    #testi a.carousel-control-prev {
+    left: 43.7%;
+    }
+}
+
+
+@media (min-width: 1200px) and (max-width: 1342px) {
+    .banner_main {
+        height: 100%;
+        
+    }
+    .banner_main .bluid h1 {
+    font-size: 67px;
+    line-height: 72px;
+   }
+   #myCarousel a.carousel-control-prev {left: 42.4%;}
+   #testi a.carousel-control-prev {left: 42.4%;}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+    .banner_main .bluid h1 {
+    font-size: 60px;
+    line-height: 70px;
+}
+    .banner_main .bluid .read_more {
+        max-width: 210px;
+    }
+   #myCarousel a.carousel-control-prev {
+    left: 39.1%;
+    }
+   #testi a.carousel-control-prev {left: 39.7%;}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    header {
+        padding: 35px 0;
+    }
+   
+    .banner_main {
+        height: 100%;
+
+    }
+    .bluid {
+    margin-top: 30px;}
+    .banner_main .bluid h1 {
+    font-size: 45px;
+    line-height: 55px;
+}
+    .banner_main .bluid .read_more {
+        max-width: 157px;
+    }
+      #myCarousel a.carousel-control-prev {
+    left: 40%;
+    }
+     #myCarousel a.carousel-control-next {
+    right: 40%;
+}
+   #testi a.carousel-control-prev {left: 40%;}
+   #testi a.carousel-control-next {
+    right: 40%;
+}
+    .titlepage h2 {
+    font-size: 43px;
+    line-height: 45px;
+}
+    .about_img figure img {padding-left: 30px;}
+    .comp h3 {
+        font-size: 40px;
+line-height: 50px;
+    }
+   .comp span {
+    font-size: 17px;
+    line-height: 22px;}
+    .Informa h3 {
+        font-size: 26px;
+    }
+    .Informa li {
+        font-size: 14px;
+    }
+    
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    header {
+        padding: 35px 0px;
+    }
+   
+    .logo {
+        text-align: center;
+        display: block;
+        width: 181px;
+    }
+    .bluid {
+        max-width: inherit; 
+        margin-top: 70px;
+    }
+    .banner_main .bluid h1 {
+        font-size: 59px;
+        line-height: 69px;
+    }
+    .pan_img {
+        padding-top: 30px;
+    }
+    #myCarousel a.carousel-control-prev {
+    left: 36%;
+    }
+     #myCarousel a.carousel-control-next {
+    right: 36%;
+}
+   #testi a.carousel-control-prev {left: 37%;}
+   #testi a.carousel-control-next {
+    right: 37%;
+}
+    .about .titlepage {
+        padding-bottom: 30px;
+    }
+    .choose_bg {padding-bottom: 208px;}
+    .cctv {
+    margin-top: -100px;
+}
+    .test_box p {display: table;}
+   .contact_img {
+    margin-top: 30px;
+}
+    .d_grid {
+        display: grid;
+    }
+    .order_1_mobile {
+        order: -1;
+    }
+}
+
+@media (max-width: 575px) {
+    header {
+        padding: 35px 0px;
+    }
+    
+    .d_none {
+        display: none !important;
+    }
+    .email {
+        padding-top: 0 !important;
+        margin-top: -47px;
+    }
+    .logo {
+        display: block;
+        width: 144px;
+        float: left;
+    }
+     .bluid {
+        max-width: inherit; 
+        margin-top: 70px;
+    }
+    .banner_main .bluid h1 {
+       font-size: 34px;
+       line-height: 40px;
+    }
+    .banner_main .bluid .read_more {
+    max-width: 120px;
+    height: 48px;
+    line-height: 48px;
+    font-size: 16px;
+    margin-right: 2px;
+    }
+    .pan_img {
+        padding-top: 30px;
+    }
+   #myCarousel a.carousel-control-prev {
+    left: 23%;
+    }
+     #myCarousel a.carousel-control-next {
+    right: 23%;
+    }
+   #testi a.carousel-control-prev {
+    left: 25%;
+   }
+   #testi a.carousel-control-next {
+    right: 25%;
+   }
+    .about .titlepage {
+        padding-bottom: 30px;
+    }
+     .about_img figure img {padding-left: 30px;}
+         .choose_bg {padding-bottom: 15 8px;}
+    .cctv {
+    margin-top: -50px;
+}
+.pro_file {margin-left: 0px; margin-bottom: 30px;}
+.clients_banner .testi {margin: 20px 0;}
+.test_box {
+    padding: 0 20px;
+}
+#testi a.carousel-control-next, #testi a.carousel-control-prev {top: 92%;}
+   .contact_img {
+    margin-top: 30px;
+}
+.main_form {
+    padding: 40px 20px;
+}
+.titlepage h2 {
+    font-size: 40px;
+    line-height: 45px;
+}
+   
+    .d_grid {
+        display: grid;
+    }
+    .order_1_mobile {
+        order: -1;
+    }
+   
+    .newslatter_form {
+        display: inherit;
+    }
+    
+    
+}
+
